@@ -1,0 +1,271 @@
+<!--Hi, this is my HYF application assignment. I hope it is enough for the next category.
+I am aware that my work could be achieved in a more simplified coding style. But I tried to keep nice visiual design during my work with using Khan tutorials and outside sources.  -->
+
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>P&K HOUSE - WELCOME</title>
+</head>
+  
+<body>
+<!--HEADER-->
+  <header>
+    <!-- I used container,container2 and container3 classes to make similar concept for the different parts of page-->
+    <div class="container">
+      <div id="branding">
+        <h1><span class="highlight">Pets for Kids</span> <i>HOUSE</i> </h1>
+      </div>
+      
+<!-- NAVIGATION BAR  -->
+      <nav>
+        <ul>
+          <li class="current"><a href="#showcase">Home</a></li>
+          <li><a href="#subscribe">About</a></li>
+          <li><a href="#about">Pets</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>  
+    
+  </header>
+  
+<!-- SHOWCASE   -->
+  <section id="showcase">
+    <div class="container">
+      <h1>Pet-assisted theraphy</h1>
+      <p>Our special animal friends waiting to meet children who are suffered from learning struggles.</p>
+    </div>
+  </section>
+ 
+<!-- INPUT BUTTON  -->
+  <section id="subscribe">
+    <div class="container">
+      <h1>To be volunteer, please subscribe</h1>
+      <form action="#">
+        <input type="email" placeholder="Enter Email">
+        <button type="submit" class="button_1">Subscribe</button>
+      </form>
+    </div>
+  </section>
+  
+<!-- ABOUT  -->
+      <section id="intro">        
+        <h2 id="about">About</h2>
+        <p>1 out of every 10 children faces learning disabilites or disorders. P&K House is a non-profit organization dedicated to help them overcome this problem. 
+        <br>At this point, we bring together children with our experts and lovely animal friends. This is a prooved method almost hoping best for all sub-categories of child-mental issues.
+        <br>Open up a new door for children.
+      </p>
+     </section>
+  
+<!--I used Midline classes several times to seperate parts in a nice-looking way  -->
+  <!-- Midline  -->
+    <div class="midline">      
+    </div>
+  
+<!-- BOXES INTRO PART   -->
+  <!-- In this part, I aimed to make 2*2 square appearance by using 4 div tags   -->
+  <section id="boxes">
+    <div class="container" id="boxcontainer">
+      
+      <!-- BOX INTRO 1 -->
+      <div class="box">
+        <a href="#cats"> <img src="https://cdn.dribbble.com/users/354375/screenshots/3309042/cat.gif" alt="cato"></a>
+        <h3>Kittens</h3>
+        <p>The special CATS are friendly and healer to humans even for those have cat-allergy! </p>
+      </div>
+      
+      <!--BOX INTRO 2 -->
+      <div class="box" id="puppiesbox">
+        <a href="#dogs"><img src="https://static1.squarespace.com/static/5520e514e4b00f468f8d3de4/t/588b42773e00be9b899a1146/1485521532793/web-shopping.gif?format=750w" alt="Nesmuk"></a>
+        <h3>Puppies</h3>
+        <p>Have you ever heard the "therapy DOG". You can meet one! </p>
+      </div>
+      
+      <!--BOX INTRO 3 -->
+      <div class="box" id="birdbox">
+        <a href="#birds"><img src="https://camo.githubusercontent.com/a26bfebf9c213e6cbde4a6bb1178b7d37bb05802/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f32303933312f73637265656e73686f74732f323531383832372f747269766966795f67315f6472696262626c652e676966" alt="birdo"></a>
+        <h3>Birds</h3>
+        <p>The most talkative person is on the board; the PARROTS! </p>
+      </div>
+      
+      <!--BOX INTRO 4 -->
+      <div class="box">
+        <a href="#list"><img src="https://cdn.dribbble.com/users/907495/screenshots/3429143/easter-bunny.gif" alt="bunni"></a>
+        <h3>Full List</h3>
+        <p>We have a different kind of animals in the facility. If you would like to find more, you can check our full LIST. </p>
+      </div>
+    </div>
+  </section>
+  
+ <!-- Midline  -->
+  <div class="midline">      
+    </div>
+
+<!-- BOXES with LONG PARAGRAPH   -->
+  <!--In this part, there are 4 div tags. For the first 3 div tag, I tried to use float feature with img and p both in left and right side.
+    In the 4th. div tag, I put image in order. 
+    All part is suitable for the smaller screen resolutions.-->
+  <section id="debox">
+    
+    <!--BOX 1 - CATS -->
+    <div class="container2">      
+  <img class="img1" src="https://avatars.mds.yandex.net/get-pdb/33827/296440973-beautiful-fluffy-cat-british-longhair-22-1465991350.68/s1200" alt="cat" width="400">
+      <h1 id="cats">Cats </h1>
+  <p>Numerous studies have shown that interaction with a furry friend is beneficial on many levels for children. Caring for a cat, for example, requires time and attention. For a child, interacting with a kitty becomes a positive distraction as well as a form of entertainment plus it leads to a deepening relationship, bond, or friendship between the cat and the child. Also, our cats-like British shorthair- are non-allergic for humans .</p>
+</div>
+    
+    <!-- Midline  -->
+    <div class="midline">      
+    </div>     
+
+    
+    <!-- BOX 2 - DOGS  -->
+    <div class="container2">      
+  <img class="img2" src="https://www.keystonepuppies.com/wp-content/uploads/2018/09/Samoyed-Category-e1519318487317-640x435.jpg" alt="dino" width="400">
+      <h1 id="dogs">Dogs </h1>
+  <p>A therapy dog is a dog that might be trained to provide affection, comfort and love to people in hospitals, retirement homes, nursing homes, schools, hospices, disaster areas, and to people with anxiety disorders or autism. Therapy dogs are usually not assistance or service dogs, but can be one or both with some organizations. So come and meet one!</p>
+</div>
+   
+   <!-- Midline  -->
+    <div class="midline">      
+    </div>
+    
+    <!-- BOX 3 - BIRDS  -->
+    <div class="container2">      
+  <img class="img1" src="http://www.cutestpaw.com/wp-content/uploads/2012/05/Chubby1.jpg" alt="birdy" width="400">
+      <h1 id="birds">Birds </h1>
+  <p>Everyone has heard about the use of trained dogs as “service animals” meant to assist people with disabilities. But parrots are also highly contribute to people for therapeutic purposes, especially to children. Just a one-year program with a parrot can make huge differences to overcome learning and speaking disorders.</p>
+</div>
+    
+    <!-- Midline  -->
+    <div class="midline">      
+    </div>
+    
+<!--   </section> -->
+    
+    <!-- BOX 4 - FULL LIST  --> 
+    <div class="container2">    
+       <h1 id="list">Full List </h1>
+  <img class="thelist" src="https://www.madpaws.com.au/wp-content/uploads/2019/04/Akita.jpg" alt="listed">
+  <img class="thelist" src="https://www.yourpurebredpuppy.com/dogbreeds/photos2-G/german-shepherd-05.jpg" alt="listed">
+      
+  <img class="thelist" src="https://www.keystonepuppies.com/wp-content/uploads/2018/09/Samoyed-Category-e1519318487317-640x435.jpg" alt="listed">
+      
+  <img class="thelist" src="https://avatars.mds.yandex.net/get-pdb/33827/296440973-beautiful-fluffy-cat-british-longhair-22-1465991350.68/s1200" alt="listed">
+      
+  <img class="thelist" src="http://edublog.amdsb.ca/myblogah1/files/2016/10/fluffy-kitty-2cjroxr.jpg" alt="listed">
+      
+  <img class="thelist" src="https://catnamescity.com/wp-content/uploads/2012/08/Cute-Girl-Cat-Names-300x200.jpg" alt="listed"> 
+      
+  <img class="thelist" src="http://desktop-backgrounds-org.s3.amazonaws.com/400x300/parrot-ara-ararauna-birds_1.jpg" alt="listed"> 
+      
+  <img class="thelist" src="https://www.thesprucepets.com/thmb/HGA4VZYl00YlMgUT2-4a3iHgWVc=/400x300/filters:no_upscale():max_bytes(150000):strip_icc()/128232453-58a6e3553df78c345b614a95.jpg" alt="listed"> 
+  
+  </section>
+  
+   <!-- Midline  -->
+    <div class="midline">      
+    </div> 
+  
+ 
+  <!--TABLE -->
+ <section id="bigtable">
+  <div class="container3">
+    <h1>Strange Fact</h1>
+    <!-- I used inline CSS style at this paragraph  -->
+    <p style="margin-bottom:30px; font-size:18px;">It is quite interesting that perception of time is different for animals comparing to humans. Cats, dogs and birds perceive the time faster than us. It means that they also can recognize feelings and actions better than humans. For example, a 3-year-old cat can act like a 32-year-old person or a 10-year-old dog has a wisdom like a 60-year-old human. In the table, you can check how old our animals are in human years. </p>
+   <div class="data">
+  
+  <table>
+    <thead>
+    <tr>
+      <th class="humanage">Age in Human Years</th>
+      <th class="cat">Cats</th>
+      <th class="dogg">Dogs</th>
+      <th class="parrot">Parrots</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="humanage">1 Year</td>
+      <td class="cat">24</td>
+      <td class="dogg">15</td>
+      <td class="parrot">1.5</td>
+    </tr>
+    <tr>
+      <td class="humanage">2 Year</td>
+      <td class="cat">28</td>
+      <td class="dogg">24</td>
+      <td class="parrot">3</td>
+    </tr>
+    <tr>
+      <td class="humanage">3 Year</td>
+      <td class="cat">32</td>
+      <td class="dogg">28</td>
+      <td class="parrot">5</td>
+    </tr>
+    <tr> 
+      <td class="humanage">10 Year</td>
+      <td class="cat">56</td>
+      <td class="dogg">60</td>
+      <td class="parrot">20</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+  </div>
+ </section>
+  
+  <!-- Midline  -->
+  <div class="midline"  style="margin-top:40px;">
+  </div>
+  
+<!-- LAST PART   -->
+  <section id="LastPart">
+    <div class="visitus">
+      <div class="column">
+
+        <div class="table">
+          <h2>Open-Day</h2>
+            <div class="date">
+          Monday
+          <span>(closed at holidays)</span>
+            </div>
+        <a href="#">Book</a>
+        </div>
+
+    </div>
+    <div class="column">
+
+      <div class="table">
+        <h2>Join us</h2>
+        <div class="date">
+          Once a Month
+          <span>(Care one child)</span>
+        </div>
+        
+        <a href="#">Be Volunteer</a>
+      </div>
+    </div>
+   </div>
+  </section>
+  
+<!-- FOOTER   -->
+  <!-- I used website links for e-mail and address part below       -->
+<footer>
+  <div id="contact">
+    <p><b>Contact us</p> 
+    <p></b>  <span class="foot">Phone:</span> +31012345678 </p>
+  </div>
+  <div>
+    <p><span class="foot">E-mail:</span><a href="mailto:someone@somebody.com"> P&K-house@123mail.com</a></p>
+  </div>
+  <p><span class="foot">Address:</span> <a href="https://www.google.nl/maps/place/Stationsweg+166+A,+2161+AM+Lisse">Stationsweg 166A, 2161 AM Lisse</a></p>
+  <p>Design, Copyright &copy; 2019</p>
+  </footer>
+  
+</body>
+</html>
