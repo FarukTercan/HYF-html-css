@@ -1,0 +1,143 @@
+body 
+{
+    margin: 5px;
+    padding: 0;
+}
+
+section 
+{
+    position: relative;
+    /* height: 100vh; */
+    display: flex;
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+
+/* Screen Left and Right General */
+.screen 
+{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.screen:nth-child(1) 
+{
+    background: #001f3f;
+    width:20%;
+    color:white;
+    align-items: center;
+    line-height: 3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.screen:nth-child(2)
+{
+    background: white;
+    width:80%;
+    margin-left:10px;
+}
+
+
+/* Screen Left */
+.screen .card
+{
+    
+    text-align: center;
+}
+
+.screen .card .imageLeft 
+{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.reference
+{
+    border:1px solid #fff;
+    box-shadow: 2px 2px 2px 2px;
+    padding:2px;
+    line-height: 2;
+}
+
+/* Screen Right Header */
+.screen header
+{
+    width: 100%;
+    height: 50px;
+    margin:5px;
+    text-align: center;
+    background: #001f3f;
+    color: whitesmoke;
+    border-bottom:#f79e02 4px solid;
+}
+
+.screen header h1 
+{
+    padding-top:10px;
+}
+
+
+/* Screen Right about */
+.screen .about
+{
+    margin: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 2; 
+}
+
+/* List Parts */
+.titles 
+{
+   text-align: center; 
+   color: #001f3f;
+   border-bottom: 1px solid #000;
+   box-shadow: 2px 2px 2px 2px; 
+   /* line-height: 0.1em; */
+   margin: 10px 0 20px;
+   background:#fff;  
+}
+
+.parts
+{
+   border:2px solid #001f3f;    
+}
+
+.parts ul li 
+{
+    padding: 10px 80px;
+    margin: 5px;
+}
+
+.parts ul li span
+{
+    margin-left:20px;
+}
+
+.year
+{
+    color: red;
+}
+
+.job, .department, .inc, .unv, .platform, .learn
+{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2px;
+}
+
+.inc, .unv
+{
+    border:1px solid #001f3f;
+    font-style: italic;
+    background: #001f3f;
+    color: #fff;
+}
