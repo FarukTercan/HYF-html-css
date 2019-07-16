@@ -1,0 +1,22 @@
+1. Creating hidden files & displaying it using ls command:
+
+mkdir  .hiddenfile
+ls ~a
+
+2. Nested directories & 'fun' folder:
+
+mkdir  -p /these/folders/are/just/for/fun
+
+3. Execute  & verify number of carachters 
+
+echo "test" > fun
+echo "another test" >> fun
+wc -c fun
+ 
+# of characters : 18
+
+4.  append smt in file... & echo command- test another test:
+
+echo -n "test" > fun
+echo -n "another test" >> fun
+
